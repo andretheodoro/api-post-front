@@ -164,12 +164,12 @@ Este projeto está totalmente containerizado utilizando o Docker:
 
 **Editar Post:** Professores podem atualizar informações de um post existente, clicando no ícone de lápis na página de lista de posts.
 
-![image](https://github.com/user-attachments/assets/26c8f63f-b9be-45c5-989a-a36ead6fddf0)
+![image](https://github.com/user-attachments/assets/ea453f10-8703-4fb9-90f9-e0c7d3cdbd86)
 ![image](https://github.com/user-attachments/assets/66bd51f4-359b-4fe7-b435-598de826011f)
 
 **Excluir Post:** Professores podem remover posts irrelevantes, clicando no ícone de lixeira na página de lista de posts.
 
-![image](https://github.com/user-attachments/assets/691cbe11-1f30-4736-954b-e184001f7033)
+![image](https://github.com/user-attachments/assets/0a638b98-9c5b-4aca-a0b1-634a1ef66e4c)
 
 **3. Visualizar Posts**
 
@@ -180,4 +180,6 @@ Alunos podem visualizar posts listados com detalhes, basta clicar sobre o card d
 **4. Busca Posts por Palavra-Chave**
 
 Alunos e Professores podem filtrar/buscar Posts de acordo com Palavras-Chaves desejadas. A busca será realizada através do título e conteúdo.
-![image](https://github.com/user-attachments/assets/909a3ae3-4321-4e52-a65a-3f1e2afcc792)
+
+![image](https://github.com/user-attachments/assets/61b082ea-9273-40cc-a3e5-f54726fd5aae)
+
