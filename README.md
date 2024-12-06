@@ -48,10 +48,6 @@ A navegação entre as páginas é gerenciada pelo React Router, com rotas prote
 
 A estilização utiliza styled-components, permitindo que estilos sejam definidos diretamente em arquivos de componentes. Isso resulta em um design responsivo e temas facilmente configuráveis.
 
-**6. Estilização**
-
-A estilização utiliza styled-components, permitindo que estilos sejam definidos diretamente em arquivos de componentes. Isso resulta em um design responsivo e temas facilmente configuráveis.
-
 **7. Comunicação com a API**
 
 A interação com o back-end é centralizada no arquivo api/index.ts, utilizando o Axios para chamadas HTTP. Todas as requisições passam por esse ponto central, simplificando a manutenção e o rastreamento de erros.
