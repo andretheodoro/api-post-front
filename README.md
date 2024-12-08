@@ -67,6 +67,20 @@ O layout é responsivo, garantindo uma boa experiência em dispositivos móveis 
 - ESLint: Ferramentas de linting e formatação.
 - Context API com Hooks: Para gerenciar autenticação e estado global.
 
+## Utilização do Vite
+
+Este projeto utiliza o [Vite](https://vite.dev/) como ferramenta de construção e ambiente de desenvolvimento. O Vite foi escolhido devido aos seguintes benefícios:
+
+**Velocidade e eficiência:** O Vite oferece um servidor de desenvolvimento extremamente rápido, utilizando módulos ES nativos, o que reduz significativamente o tempo de inicialização do projeto.
+
+**Hot Module Replacement (HMR):** Permite que alterações no código sejam refletidas instantaneamente no navegador, sem perder o estado atual da aplicação.
+
+**Configuração simples e flexível:** O Vite possui uma configuração inicial mínima e, ao mesmo tempo, é altamente personalizável para atender às necessidades do projeto.
+
+**Ótimo suporte para React:** O Vite fornece plugins otimizados para projetos React, como o @vitejs/plugin-react, que simplifica a configuração do ambiente.
+
+**Compatibilidade com TypeScript:** O Vite possui suporte nativo ao TypeScript, integrando perfeitamente com os requisitos do projeto.
+
 ## Estrutura Geral do Projeto
 
 ```plaintext
