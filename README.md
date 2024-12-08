@@ -31,6 +31,7 @@ Os Hooks permitem o gerenciamento eficiente de estados e ciclos de vida em compo
 A escolha por essa combinação resulta em um código mais limpo, modular e fácil de manter, atendendo às melhores práticas do desenvolvimento frontend.
 
 **3. Componentização**
+
 A aplicação é desenvolvida utilizando o conceito de componente reutilizável, que encapsulam tanto a lógica quanto os estilos de cada parte da interface:
 
 - Header: Um componente fixo usado em todas as páginas com opções de navegação (lista de posts e deslogar do sistema).
@@ -55,7 +56,6 @@ A interação com o back-end é centralizada no arquivo api/index.ts, utilizando
 **8. Responsividade**
 
 O layout é responsivo, garantindo uma boa experiência em dispositivos móveis e desktops.
-
 
 ## Tecnologias Utilizadas
 
@@ -90,6 +90,7 @@ src/
 - Login e Logout com gerenciamento de autenticação.
 - Listagem de posts.
 - Leitura de posts.
+- Busca de posts por palavra-chave.
 - Criação, edição e exclusão de posts.
 - Interface responsiva para dispositivos móveis.
 - Integração com API REST de Posts.
@@ -179,7 +180,21 @@ Alunos podem visualizar posts listados com detalhes, basta clicar sobre o card d
 
 **4. Busca Posts por Palavra-Chave**
 
-Alunos e Professores podem filtrar/buscar Posts de acordo com Palavras-Chaves desejadas. A busca será realizada através do título e conteúdo.
+Alunos e Professores podem filtrar/buscar Posts de acordo com Palavras-Chaves desejadas. A busca será realizada através do título ou conteúdo.
+Para caso de Alunos serão filtrados todos os Posts do Banco de Dados, para caso dos Professores serão filtrados apenas os Posts que pertencem ao mesmo.
 
 ![image](https://github.com/user-attachments/assets/61b082ea-9273-40cc-a3e5-f54726fd5aae)
 
+## Desafios Enfrentados pela Equipe Durante o Desenvolvimento
+
+O desenvolvimento deste projeto apresentou diversos desafios técnicos e organizacionais. Abaixo, destacamos os principais obstáculos enfrentados e como a equipe lidou com eles:
+
+**1. Responsividade e Design para Dispositivos Móveis**
+
+Desafio: Ajustar o layout da aplicação para proporcionar uma boa experiência em telas pequenas.
+Solução: Utilizamos styled-components com media queries para criar estilos responsivos, ajustando margens, paddings, fontes e outros elementos visuais.
+
+**2. Integração com a API de Posts**
+
+Desafio: Lidar com respostas assíncronas da API e exibir mensagens de erro amigáveis ao usuário.
+Solução: Utilizamos a biblioteca Axios para consumir a API e implementamos mecanismos de feedback visual para erros, como notificações e validações.
